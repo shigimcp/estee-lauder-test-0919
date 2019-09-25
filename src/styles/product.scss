@@ -1,0 +1,484 @@
+
+@import 'fonts.scss';
+
+/** Add styles here **/
+
+// ========================= DESKTOP / LAPTOP =========================
+
+// ------------------------- Product -------------------------
+
+.bodyContainer {
+    width: 1304px;
+    height: 1000px;
+
+    margin: 0 auto;
+    padding: 0;
+
+    &__hero, &__info {
+        width: 576px;
+    }
+
+    &__hero {
+        height: 720px;
+
+        margin: 184px 0 0 64px;
+
+        float: left;
+    }
+
+    &__info {
+        height: 630px;
+
+        margin: 184px 61px 0 0;
+        padding: 0;
+
+        float: right;
+    }
+
+    hr {
+        border: 1px solid #e6e6e6;
+    }
+}
+
+
+// ------------------------- ProductImage -------------------------
+
+.prodImg {
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    &__img {
+        width: 288px;
+        height: 496px;
+
+        margin: 0 auto;
+
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+}
+
+
+// ------------------------- ProductDesc -------------------------
+
+.prodDesc {
+    margin: 0;
+    padding: 0;
+
+    &__cat {
+        color: #999999;
+
+        font-size: 17px;
+        letter-spacing: 0.0375em;
+
+        margin: inherit;
+        padding: inherit;
+    }
+
+    &__name {
+        font-family: 'Helvetica Neue LT Std';
+
+        font-size: 27px;
+        letter-spacing: 0.015em;
+        line-height: 1.2em;
+
+        margin: 0.55em 0.5em 0 0;
+        padding: inherit;
+    }
+
+    &__desc {
+        font-size: 17px;
+        letter-spacing: 0.04em;
+        line-height: 1.45em;
+
+        margin: 0.35em 2em 0 0;
+        padding: inherit;
+    }
+
+    &__rating {
+        letter-spacing: 0.05em;
+
+        height: 30px;
+
+        margin: 0.5em 0 0 0.1em;
+        padding: inherit;
+
+        &_stars {
+            font-size: 0.75em;
+            letter-spacing: 0.25em;
+
+            width: 50%;
+
+            &-lt {
+                opacity: 0.1;
+            }
+        }
+    }
+
+    &__prodDetail {
+        font-size: 17px;
+        line-height: 0.375em;
+
+        margin: 1.625em 0 0 0;
+        padding: 0;
+    }
+
+    &__detail {
+        vertical-align: top;
+
+        width: 50%;
+        height: 72px;
+
+        margin: 0;
+        padding: 0;
+
+        display: inline-block;
+
+        &-hedLf, &-hedRt {
+            font-family: 'Helvetica Neue LT Std';
+            letter-spacing: 0.0125em;
+
+            margin: 0;
+            padding: 0;
+        }
+
+        &-featLf, &-featRt {
+            letter-spacing: 0.0375em;
+            line-height: 1.5em;
+
+            margin: 0.5em 0 0 0;
+            padding: 0;
+        }
+
+        &-hedRt, &-featRt {
+            padding: 0 0 0 12px;
+        }
+
+        &-link {
+            border-bottom: 1px solid #999999;
+            color: #000000;
+            text-decoration: none;
+            padding: 0 0 4px 0;
+        }
+    }
+
+    &__shade {
+        border: 2px solid #E6E6E6;
+
+        color: #1A1A1A;
+        font-family: 'Helvetica Neue LT Std';
+        font-size: 17px;
+        // font-size: 1em;
+        font-weight: 700;
+        letter-spacing: 0.005em;
+        vertical-align: middle;
+
+        // width: 276px;
+        // height: 64px;
+        // width: 272px;
+        // height: 60px;
+        // width: 224px;
+        // height: 12px;
+        width: 226px;
+        height: 14px;
+
+        margin: 1.75em 0 1.5em 0;
+        // margin: 1.875em 0 1.5em 0;
+        padding: 23px;
+
+        &-color {
+            fill: #F6DFC8;
+
+            width: 16px;
+            height: 16px;
+            float: right;
+        }
+    }
+}
+
+
+// ------------------------- ProductPurchase -------------------------
+
+.prodPurch {
+    font-family: 'Helvetica Neue LT Std';
+    font-weight: bold;
+    letter-spacing: 0.03875em;
+
+    margin: 22px 0 0 0;
+    padding: 0;
+
+    &__quantity, &__freq, &__price, &__btn {
+        vertical-align: top;
+
+        width: 276px;
+        height: 54px;
+
+        display: inline-block;
+    }
+
+    &__quantity {
+        align-items: center;
+
+        &__img {
+            width: 12px;
+            height: 12px;
+
+            vertical-align: middle;
+            margin: 0 0.8em;
+        }
+    }
+
+    &__freq {
+        align-items: center;
+
+        float: right;
+
+        &__img {
+            width: 8px;
+            height: 8px;
+
+            vertical-align: middle;
+            margin: 0 1em;
+        }
+    }
+
+    &__price {
+        font-size: 28px;
+        letter-spacing: -0.0125em;
+
+        padding: 23px 0 0 0;
+    }
+
+    &__btn {
+        border: none;
+        background-color: #000000;
+
+        color: #ffffff;
+        font-size: 17px;
+
+        height: 64px;
+
+        margin: 6px 0 0 0;
+        float: right;
+    }
+}
+
+
+// ========================= MOBILE =========================
+
+@media only screen and (max-width:  1200px) {
+
+    // ------------------------- Product -------------------------
+
+    .bodyContainer {
+        width: 380px;
+        height: 1324px;
+
+        margin: 0;
+        padding: 0;
+
+        &__hero, &__info {
+            width: 100%;
+
+            margin: 0;
+            padding: 0;
+        }
+
+        &__hero {
+            width: 100%;
+            height: 424px;
+
+            margin: 144px auto 0 auto;
+            padding: 0;    
+        }
+
+        &__info {
+            width: 340px;
+            height: 550px;
+
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        hr {
+            margin: 1.25em 0 0 0;
+        }
+    }
+
+
+    // ------------------------- ProductImage -------------------------
+
+    .prodImg {
+        width: inherit;
+        height: inherit;
+
+        margin: 0;
+        padding: 0;
+
+        &__img {
+            width: 169.55px;
+            height: 292px;
+        }
+    }
+
+
+    // ------------------------- ProductDesc -------------------------
+
+    .prodDesc {
+        width: 340px;
+
+        margin: 0 auto;
+        padding: 0;
+
+        &__cat {
+            font-size: 15px;
+            letter-spacing: 0.05em;
+
+            position: absolute;
+            top: 93px;
+        }
+
+        &__name {
+            font-family: 'Helvetica Neue LT Std';
+
+            font-size: 20px;
+            letter-spacing: 0.005em;
+            line-height: 1.25em;
+
+            margin: 3.375em 0 0 0;
+            padding: 0;
+        }
+
+        &__desc {
+            font-size: 15px;
+            letter-spacing: 0.03875em;
+            line-height: 1.375em;
+
+            margin: 0.375em 0 0 0;
+        }
+
+        &__rating {
+            font-size: 0.905em;
+            letter-spacing: 0.0005em;
+
+            height: 30px;
+
+            margin: 1.2875em 0 0 0.1em;
+            padding: inherit;
+
+            &_stars {
+                font-size: 0.85em;
+                letter-spacing: 0.25em;
+                line-height: 0;
+
+                width: 50%;
+
+                &-lt {
+                    opacity: 0.1;
+                }
+            }
+        }
+
+        &__prodDetail {
+            font-size: 15px;
+            line-height: 20px;
+
+            margin: 0.75em 0 0 0;
+        }
+
+        &__detail {
+            width: 100%;
+            height: 60px;
+
+            &-featLf, &-featRt {
+                line-height: 0.25em;
+            }
+
+            &-hedRt, &-featRt {
+                padding: 0;
+            }
+
+            &-link {
+                border-bottom: 1px solid #999999;
+                color: #000000;
+                text-decoration: none;
+                padding: 0 0 4px 0;
+            }
+        }
+
+        &__shade {
+            font-size: 15px;
+            letter-spacing: 0.025em;
+
+            width: 302px;
+            height: 18px;
+
+            margin: 0.875em auto;
+            padding: 17px;
+        }
+    }
+
+
+    // ------------------------- ProductPurchase -------------------------
+
+    .prodPurch {
+        margin: 1.125em 0 0 0;
+
+        &__quantity, &__freq, &__price, &__btn {
+            height: 30px;
+        }
+
+        &__quantity, &__freq {
+            font-size: 0.875em;
+
+            width: 47.5%;
+
+            margin: 0;
+            padding: 0;
+        }
+
+        &__price, &__btn {
+            width: 100%;
+        }
+
+        &__quantity {
+            align-items: center;
+
+            &__img {
+                margin: 0 1em;
+            }
+        }
+
+        &__freq {
+            text-align: right;
+            align-items: center;
+
+            margin: 0 0.5em;
+            float: right;
+
+            &__img {
+                margin: 0 0.5em 0 0;
+            }
+        }
+
+        &__price {
+            font-size: 20px;
+            letter-spacing: -0.0125em;
+
+            height: 50px;
+
+            padding: 21px 0 0 0;
+        }
+
+        &__btn {
+            font-size: 15px;
+
+            height: 56px;
+        }
+    }
+}

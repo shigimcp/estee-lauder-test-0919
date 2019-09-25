@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f5e95169.chunk.css",
+    "main.js": "/static/js/main.a116a6ea.chunk.js",
+    "main.js.map": "/static/js/main.a116a6ea.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.137c14e4.chunk.js": "/static/js/2.137c14e4.chunk.js",
+    "static/js/2.137c14e4.chunk.js.map": "/static/js/2.137c14e4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d7e94d4133ccdbc298a67ac7fa8dea95.js": "/precache-manifest.d7e94d4133ccdbc298a67ac7fa8dea95.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f5e95169.chunk.css.map": "/static/css/main.f5e95169.chunk.css.map",
+    "static/media/caret.svg": "/static/media/caret.1c6cd538.svg",
+    "static/media/foundation_image.png": "/static/media/foundation_image.4f43797d.png",
+    "static/media/index.scss": "/static/media/helveticaneueltstd-md.c0ce862b.svg",
+    "static/media/minus.svg": "/static/media/minus.c8508d40.svg",
+    "static/media/plus.svg": "/static/media/plus.5cd7fdb2.svg"
+  }
+}
